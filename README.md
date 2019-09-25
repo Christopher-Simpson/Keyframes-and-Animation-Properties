@@ -49,3 +49,34 @@ Jump solution
 
 
 Now the challenge has been completed I am using this workspace to work on the MOve, scale and spin lesson. I have cleared the workspace of code used previously and beginning fresh.
+Challenge 2 has an unexpected outcome of flying in circles around the screen instead of rotating in one spot. Will keep just incase I want to do that again later on.
+Code that produced the result:
+img {
+    margin: 50px;
+    transition: transform 1s ease;
+}
+
+img:hover {
+    transform: scale(2);
+}
+
+.challenge2 {
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+
+
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(359deg)
+    }
+
+}
+
+Moving on to challenge 3.
