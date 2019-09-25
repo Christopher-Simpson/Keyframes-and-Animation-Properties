@@ -11,7 +11,8 @@ Index.html -
     <title>Document</title>
 </head>
 <body>
-    <div class="box"></div>
+    <img  class="challenge1" src="https://placebear.com/cache/145-201.jpg" alt="challenge1">
+    <img class="challenge2" src="https://placebear.com/cache/145-201.jpg" alt="challenge2">
 </body>
 </html>
 
