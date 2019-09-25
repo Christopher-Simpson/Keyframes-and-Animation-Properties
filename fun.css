@@ -18,6 +18,13 @@ img:hover {
 
 }
 
+.challenge3 {
+    background-color: #bada55;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+
 @keyframes spin {
     from {
         transform: rotate(0deg)
